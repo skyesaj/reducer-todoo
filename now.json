@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "name": "To-Do",
+  "name": "todo",
   "builds": [
     {
-      "src": "To-Do/package.json",
+      "src": "todo/package.json",
       "use": "@now/static-build",
       "config": { "distDir": "build" }
     }
   ],
-  "routes": [{ "src": "/(.*)", "dest": "To-Do/$1" }]
+  "routes": [{ "src": "/(.*)", "dest": "todo/$1" }]
 }
